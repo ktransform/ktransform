@@ -8,3 +8,5 @@
  */
 
 rootProject.name = "ktransform"
+include("ktransform-core")
+include("ktransofrm-processor")

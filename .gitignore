@@ -221,3 +221,9 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle,kotlin,java,intellij,visualstudiocode,vim
+
+### IDE specific ###
+# intellij
+.idea
+# VSCode
+.vscode

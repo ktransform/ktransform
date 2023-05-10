@@ -1,4 +1,5 @@
 import org.jetbrains.dokka.gradle.DokkaTaskPartial
+import util.getProperty
 
 plugins {
   id("org.jetbrains.dokka") version "1.8.10"
@@ -6,7 +7,7 @@ plugins {
 
 allprojects {
   group = "dev.ktransform"
-  version = rootProject.properties["version"] as String
+  version = project.getProperty("version")
 
   repositories {
     mavenCentral()
